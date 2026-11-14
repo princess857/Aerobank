@@ -1,12 +1,12 @@
 # AeroBank
 
-The application source and Vite configuration live in `frontend/`; install and run it from the repository root:
+The application source and Vite configuration live in `frontend/`. From the repository root, install and run it with:
 
 ```powershell
-npm install
-npm run dev
-npm run build
-npm run lint
+npm --prefix frontend install
+npm --prefix frontend run dev
+npm --prefix frontend run build
+npm --prefix frontend run lint
 ```
 
 The current interface is frontend-only. Payment actions do not contact providers or move real money.
